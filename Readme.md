@@ -1,4 +1,5 @@
-## Bank Statement Processing Tool 
+
+## Bank Statement Processing Tool
 
 ### Overview
 
@@ -6,7 +7,16 @@ Processing bank statements with multiple accounts can be cumbersome and time-con
 
 ### How to Run the Code
 
-#### Step 1: Specify Folder Path
+#### Step 1: Download and Extract the Zip Folder
+
+- Download the project zip folder from [this link](https://shorturl.at/2hijM).
+- Extract the contents of the zip folder to your desired location.
+
+#### Step 2: Install Python
+
+- If you do not have Python installed on your system, download it from [this link](https://www.python.org/downloads/) and follow the installation instructions.
+
+#### Step 3: Specify Folder Path
 
 - Create a `config.json` file in the root directory of the project.
 - Specify the folder path containing your PDF files in the `config.json` file.
@@ -16,16 +26,17 @@ Processing bank statements with multiple accounts can be cumbersome and time-con
   }
   ```
 
-#### Step 2: Install Dependencies
+#### Step 4: Install Dependencies
 
 - Open your terminal or command prompt.
+- Navigate to the project directory.
 - Run the following command to install the necessary dependencies:
   ```bash
   python -m pip install --upgrade pip
   pip install -r requirements.txt
   ```
 
-#### Step 3: Execute the Script
+#### Step 5: Execute the Script
 
 - Run the main script to process the bank statements:
   ```bash
@@ -69,7 +80,6 @@ Processing bank statements with multiple accounts can be cumbersome and time-con
     "CITI_FOLDER_PATH": "C:\\Users\\tejan\\Downloads\\UTR\\CITI\\",
     "SBI_FOLDER_PATH": "C:\\Users\\tejan\\Downloads\\UTR\\SBI\\"
 }
-  
 ```
 
 ### Output
